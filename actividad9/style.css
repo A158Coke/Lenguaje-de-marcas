@@ -5,4 +5,5 @@
 .segundo{
     float: left;
     width: 70%
+    column: 3px;
 }
