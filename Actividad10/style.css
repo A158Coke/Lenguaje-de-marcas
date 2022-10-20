@@ -1,1 +1,35 @@
- 
+body{
+    background-color:rgb(76, 77, 121);
+ }
+ .partederecha{
+    background-color: aqua;
+    float: right;
+    width: 20%;
+    margin: 10px;
+    text-align: center;
+ }
+ .underline{
+    text-decoration: underline;
+ }
+ .header{
+    float: left;
+    width: 100%;
+    background-color: aliceblue;
+
+ }
+ .rojo{
+    float: left;
+    width: 80%;
+    background-color: rgb(146, 27, 106);
+    text-align: center;
+ }
+.centre{
+    float: left;
+    width: 80%;
+}
+a{
+    text-decoration:none ;
+}
+ul{
+    word-spacing: 100px;
+}
