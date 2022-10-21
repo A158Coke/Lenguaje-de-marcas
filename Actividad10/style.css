@@ -38,6 +38,7 @@ div img{
 }
 a{
     text-decoration:none ;
+    margin: 0ch;
 }
 ul{
     word-spacing: 100px;
