@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empresa>
+    <Factura id="999">
+
+        <nombre>Equipos Digitals S.L.</nombre>
+        <direccion>
+            <Calle>AV.Valladolid</Calle>
+            <Provincia>Madrid</Provincia>
+            <codi_postal>28015</codi_postal>
+        </direccion>
+        <CIF>Q-9876543</CIF>
+        <telefono>917776688</telefono>
+        <fax>917776699</fax>
+        <fecha>
+            <dia>12</dia>
+            <mes>1</mes>
+            <año>2005</año>
+        </fecha>
+        <Pedido id="731"></Pedido>
+        <forma_de_pago>Efectivo</forma_de_pago>
+    </Factura>
+
+    <Datos_Cliente>
+
+        <numero_Cliente>879</numero_Cliente>
+        <nombre>Darío Bueno Gutiérrez</nombre>
+        <Dirección>AV.Oporto n7 4d</Dirección>
+        <Población>Madrid</Población>
+        <codigo_postal>28043</codigo_postal>
+        <Provincia>Madrid</Provincia>
+
+    </Datos_Cliente>
+
+    <Datos_Factura>
+
+        <REF id="MII93000F/8">
+            <Descripción>Micro pentium IV 3000MHZ FB800</Descripción>
+            <Cantidad>1</Cantidad>
+            <Precio>230 euro</Precio>
+            <IVA>16%</IVA>
+            <Importe>266.80 euro</Importe>
+        </REF>
+
+        <REF id="MB8QDIp4">
+            <Descripción></Descripción>
+            <Cantidad>1</Cantidad>
+            <Precio>180 euro</Precio>
+            <IVA>16%</IVA>
+            <Importe>208.80 euro</Importe>
+        </REF>
+
+        <REF id="MEDD512M32">
+            <Descripción></Descripción>
+            <Cantidad>2</Cantidad>
+            <Precio>40 eurp</Precio>
+            <IVA>16%</IVA>
+            <Importe>92.80 euro</Importe>
+        </REF>
+
+        <REF id="HD250GSA7">
+            <Descripción></Descripción>
+            <Cantidad>4</Cantidad>
+            <Precio>120 euro</Precio>
+            <IVA>16%</IVA>
+            <Importe>556.80 euro</Importe>
+        </REF>
+
+
+        <Base_imponible>970.00 euro</Base_imponible>
+        <cant_IVA>16%</cant_IVA>
+        <Cuota_IVA>155.20 euro</Cuota_IVA>
+        <Total_factura>1125.20 euro</Total_factura>
+    </Datos_Factura>
+
+</empresa>
