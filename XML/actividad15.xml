@@ -42,7 +42,7 @@
         </REF>
 
         <REF id="MB8QDIp4">
-            <Descripción></Descripción>
+            <Descripción>Placa base QDI P4</Descripción>
             <Cantidad>1</Cantidad>
             <Precio>180 euro</Precio>
             <IVA>16%</IVA>
@@ -50,7 +50,7 @@
         </REF>
 
         <REF id="MEDD512M32">
-            <Descripción></Descripción>
+            <Descripción>DIMM DDR 512MB 3200</Descripción>
             <Cantidad>2</Cantidad>
             <Precio>40 eurp</Precio>
             <IVA>16%</IVA>
@@ -58,7 +58,7 @@
         </REF>
 
         <REF id="HD250GSA7">
-            <Descripción></Descripción>
+            <Descripción>DISCO DURO 250GB S-ATA 7200</Descripción>
             <Cantidad>4</Cantidad>
             <Precio>120 euro</Precio>
             <IVA>16%</IVA>
