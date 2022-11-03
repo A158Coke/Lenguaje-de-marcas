@@ -33,43 +33,47 @@
 
     <Datos_Factura>
 
-        <REF id="MII93000F/8">
+        <Productos>
+            <REF>MII93000F</REF>
             <Descripción>Micro pentium IV 3000MHZ FB800</Descripción>
             <Cantidad>1</Cantidad>
             <Precio>230 euro</Precio>
             <IVA>16%</IVA>
             <Importe>266.80 euro</Importe>
-        </REF>
+        </Productos>
 
-        <REF id="MB8QDIp4">
+        <Productos>
+            <REF> MB8QDIp4 </REF>
             <Descripción>Placa base QDI P4</Descripción>
             <Cantidad>1</Cantidad>
             <Precio>180 euro</Precio>
             <IVA>16%</IVA>
             <Importe>208.80 euro</Importe>
-        </REF>
+        </Productos>
 
-        <REF id="MEDD512M32">
+        <Productos>
+            <REF>MEDD512M32</REF>
             <Descripción>DIMM DDR 512MB 3200</Descripción>
             <Cantidad>2</Cantidad>
             <Precio>40 eurp</Precio>
             <IVA>16%</IVA>
             <Importe>92.80 euro</Importe>
-        </REF>
+        </Productos>
 
-        <REF id="HD250GSA7">
+        <Productos>
+            <REF>HD250GSA7</REF>
             <Descripción>DISCO DURO 250GB S-ATA 7200</Descripción>
             <Cantidad>4</Cantidad>
             <Precio>120 euro</Precio>
             <IVA>16%</IVA>
             <Importe>556.80 euro</Importe>
-        </REF>
-
+        </Productos>
 
         <Base_imponible>970.00 euro</Base_imponible>
         <cant_IVA>16%</cant_IVA>
         <Cuota_IVA>155.20 euro</Cuota_IVA>
         <Total_factura>1125.20 euro</Total_factura>
+        
     </Datos_Factura>
 
 </empresa>

@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<table borde="1">
     <Descripcion>
         <empresa hechos="IBM Da a conocer el PC">
             <fecha>
@@ -24,6 +23,4 @@
                 <año>2004</año>
             </fecha>
         </empresa>
-
     </Descripcion>
-</table>
