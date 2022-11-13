@@ -4,22 +4,18 @@
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT dir (#PCDATA)>
 <!ELEMENT poblacion (#PCDATA)>
-<!ATTLIST poblacion cod_postal CDATA >
+<!ATTLIST poblacion cod_postal CDATA #IMPLIED>
 <!ELEMENT provincia (#PCDATA)>
 <!ELEMENT cif (#PCDATA)>
 <!ELEMENT telefono (#PCDATA)>
-<!ATTLIST telefono numeroTel CDATA #FIXED "917776688"> 
+<!ATTLIST telefono numeroTel CDATA #FIXED "917776688">
 <!ATTLIST telefono numFax CDATA #FIXED "917776699">
 <!ELEMENT datos_cliente (nombre,dir_env,poblacion,provincia)>
 <!ATTLIST datos_cliente n_cli ID #REQUIRED>
-<!ELEMENT nombre (#PCDATA)>
 <!ELEMENT dir_env (#PCDATA)>
-<!ELEMENT poblacion (#PCDATA)>
-<!ATTLIST poblacion cod_postal CDATA>
-<!ELEMENT provincia (#PCDATA)>
 <!ELEMENT datos_factura (fecha,linea+,base,cuota_iva,total)>
 <!ATTLIST datos_factura n_ped ID #REQUIRED>
-<!ATTLIST datos_factura iva CDATA>
+<!ATTLIST datos_factura iva CDATA >
 <!ATTLIST datos_factura f_pago (efectivo|tarjeta|plazos)>
 <!ATTLIST datos_factura moneda CDATA #FIXED "euro">
 <!ELEMENT fecha (#PCDATA)>
