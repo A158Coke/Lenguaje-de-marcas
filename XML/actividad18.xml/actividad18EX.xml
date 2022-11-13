@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE lista_de_notas SYSTEM "actividad18.dtd">
+<!DOCTYPE factura SYSTEM "actividad18.dtd">
 
 <factura n_fac="f999"> 
     <datos_empresa> 
