@@ -1,15 +1,16 @@
 <!ELEMENT factura (datos_empresa,datos_cliente,datos_factura)>
 <!ATTLIST factura n_fac ID #REQUIRED>
-<!ELEMENT datos_empresa (nombre,dir,poblacion,provincia,cif,telefono?,fax?)>
+<!ELEMENT datos_empresa (nombre,dir,poblacion,provincia,cif,telefono?)>
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT dir (#PCDATA)>
 <!ELEMENT poblacion (#PCDATA)>
 <!ATTLIST poblacion cod_postal CDATA >
 <!ELEMENT provincia (#PCDATA)>
 <!ELEMENT cif (#PCDATA)>
-<!ELEMENT telefono (#FIXED "917776688")>
-<!ELEMENT fax (#FIXED "917776699")>
-<!ELEMENT datos_cliente (nombre,dir-env,poblacion,provincia)>
+<!ELEMENT telefono (#PCDATA)>
+<!ATTLIST telefono numeroTel CDATA #FIXED "917776688"> 
+<!ATTLIST telefono numFax CDATA #FIXED "917776699">
+<!ELEMENT datos_cliente (nombre,dir_env,poblacion,provincia)>
 <!ATTLIST datos_cliente n_cli ID #REQUIRED>
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT dir_env (#PCDATA)>
