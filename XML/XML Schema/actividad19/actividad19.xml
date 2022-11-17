@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lista_de_notas
-    xmlns="http://www.w3schools.com"
+    xmlns="http://www.w3.org.com"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema"
     xsi:schemaLocation="XML\XML Schema\actividad19\actividad19.xsd">
     <nota>
