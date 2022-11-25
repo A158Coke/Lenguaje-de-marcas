@@ -10,7 +10,7 @@
         <Resistencia_a_las_heladas>Heladas fuertes (hasta -15ºC)</Resistencia_a_las_heladas>
     </Arbol>
 
-    <Arbol Nombre="Olea_europea">
+    <Arbol Nombre="Olea_europea">>
         <Nombre_común>Olivo</Nombre_común>
         <Vegetación>Perenne</Vegetación>
         <Altura>De 8 a 15 metros</Altura>
