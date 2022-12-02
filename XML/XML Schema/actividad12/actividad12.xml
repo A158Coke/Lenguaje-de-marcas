@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CD_Oferta>
+<CD_Oferta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="actividad12.xsd">
         <CD>
             <Título>Still got the blues</Título>
             <Aritista>Garry Moore</Aritista>

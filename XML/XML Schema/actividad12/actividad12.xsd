@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="CD_Oferta">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="CD" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Título" type="xs:string" />
+                            <xs:element name="Aritista" type="xs:string" />
+                            <xs:element name="País" type="xs:string" />
+                            <xs:element name="Compañía_discográfica" type="xs:string" />
+                            <xs:element name="Precio" type="xs:string" />
+                            <xs:element name="Año_de_publicación" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
