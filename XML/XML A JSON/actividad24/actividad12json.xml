@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="actividad12json.xsl" type="text/xsl"?>   
+<CD_Oferta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="actividad24.xsd">
+        <CD>
+            <Título>Still got the blues</Título>
+            <Aritista>Garry Moore</Aritista>
+            <País>UK</País>
+            <Compañía_discográfica>Virgin records</Compañía_discográfica>
+            <Precio>10.20</Precio>
+            <Año_de_publicación>1990</Año_de_publicación>
+        </CD>
+
+        <CD>
+            <Título>One night only</Título>
+            <Aritista>Bee Gees</Aritista>
+            <País>UK</País>
+            <Compañía_discográfica>Polydor</Compañía_discográfica>
+            <Precio>10.90</Precio>
+            <Año_de_publicación>1998</Año_de_publicación>
+        </CD>
+
+        <CD>
+            <Título>When a man loves a woman</Título>
+            <Aritista>Percy Sledge</Aritista>
+            <País>USA</País>
+            <Compañía_discográfica>Atlantic</Compañía_discográfica>
+            <Precio>8.70</Precio>
+            <Año_de_publicación>1987</Año_de_publicación>
+        </CD>
+
+        <CD>
+            <Título>Big Willie style</Título>
+            <Aritista>Will Smith</Aritista>
+            <País>USA</País>
+            <Compañía_discográfica>Columbia</Compañía_discográfica>
+            <Precio>9.90</Precio>
+            <Año_de_publicación>1997</Año_de_publicación>
+        </CD>
+
+        <CD>
+            <Título>La cación de Juan Perro</Título>
+            <Aritista>Radio Futura</Aritista>
+            <País>España</País>
+            <Compañía_discográfica>Sony Music-Ariola</Compañía_discográfica>
+            <Precio>9.90</Precio>
+            <Año_de_publicación>1987</Año_de_publicación>
+        </CD>
+
+        <CD>
+            <Título>The dock of the bay</Título>
+            <Aritista>Otis Redding</Aritista>
+            <País>USA</País>
+            <Compañía_discográfica>Atlantic</Compañía_discográfica>
+            <Precio>7.90</Precio>
+            <Año_de_publicación>1987</Año_de_publicación>
+        </CD>
+</CD_Oferta>
