@@ -15,7 +15,7 @@
 
             <body>
 
-
+             
                 <h1 style="text-align:center">
                     <xsl:value-of select="title" />
                 </h1>
@@ -59,8 +59,10 @@
                     <xsl:value-of
                         select="description" />
                     <br />
-                    <xsl:value-of
-                        select="category" />
+                    <xsl:for-each select="category">
+                        <xsl:value-of
+                        select="." /> | 
+                    </xsl:for-each>
                     <br/>    
                     <xsl:value-of
                         select="media:content" />
@@ -77,7 +79,7 @@
                     <xsl:value-of
                         select="media:description" />
                     <br/>
-                    <xsl:value-of select="content:encoded" />
+                
 
                 </xsl:for-each>
             </body>
