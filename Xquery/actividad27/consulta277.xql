@@ -1,3 +1,3 @@
 for $libro in doc("biblioteca.xml") /bib/libro
-order by $libro/@anyo 
+where count($libro/autor)=0
 return concat (data($libro/titulo), " -> " ,data($libro/@anyo))
