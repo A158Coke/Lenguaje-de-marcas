@@ -1,23 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="actividad15.xsl" type="text/xsl"?>   
-<empresa xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:noNamespaceSchemaLocation="actividad25.xsd" >
+<?xml-stylesheet href="actividad25.xsl" type="text/xsl"?>   
+<?xml-model href="actividad25.xsd"?>
+<empresa >
     <Factura id="999">
 
         <nombre>Equipos Digitals S.L.</nombre>
-        <direccion>
-            <Calle>AV.Valladolid</Calle>
-            <Provincia>Madrid</Provincia>
-            <codi_postal>28015</codi_postal>
-        </direccion>
+        <Calle>AV.Valladolid</Calle>
+        <Provincia>Madrid</Provincia>
+        <codi_postal>28015</codi_postal>
         <CIF>Q-9876543</CIF>
         <telefono>917776688</telefono>
         <fax>917776699</fax>
-        <fecha>
-            <dia>12</dia>
-            <mes>1</mes>
-            <año>2005</año>
-        </fecha>
+        <fecha>12/1/2005</fecha>
         <Pedido id="731"></Pedido>
         <forma_de_pago>Efectivo</forma_de_pago>
     </Factura>
