@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="examen.xsd"?>
 <academia>
-    <baile>
-        <Nombre_del_baile>La jota</Nombre_del_baile>
+    <baile nombre="La jota">
         <Precio_de_la_clase>100</Precio_de_la_clase>
         <Número_de_plazas_disponibles>32</Número_de_plazas_disponibles>
         <Fecha_de_inicio_de_las_clases>20/9/2022    </Fecha_de_inicio_de_las_clases>
@@ -12,8 +11,7 @@
         <Sala>2</Sala>
     </baile>
 
-    <baile>
-        <Nombre_del_baile>La sevillana</Nombre_del_baile>
+    <baile nombre="La sevillana">
         <Precio_de_la_clase>150</Precio_de_la_clase>
         <Número_de_plazas_disponibles>15</Número_de_plazas_disponibles>
         <Fecha_de_inicio_de_las_clases>20/9/2022</Fecha_de_inicio_de_las_clases>
@@ -23,8 +21,7 @@
         <Sala>1</Sala>
     </baile>
 
-    <baile>
-        <Nombre_del_baile>El chotis</Nombre_del_baile>
+    <baile nombre="El chotis">
         <Precio_de_la_clase>200</Precio_de_la_clase>
         <Número_de_plazas_disponibles>23</Número_de_plazas_disponibles>
         <Fecha_de_inicio_de_las_clases>20/9/2022</Fecha_de_inicio_de_las_clases>
@@ -34,8 +31,7 @@
         <Sala>3</Sala>
     </baile>
 
-    <baile>
-        <Nombre_del_baile>La muñeira</Nombre_del_baile>
+    <baile nombre="La muñeira">
         <Precio_de_la_clase>250</Precio_de_la_clase>
         <Número_de_plazas_disponibles>12</Número_de_plazas_disponibles>
         <Fecha_de_inicio_de_las_clases>20/9/2022</Fecha_de_inicio_de_las_clases>
@@ -45,8 +41,7 @@
         <Sala>2</Sala>
     </baile>
 
-    <baile>
-        <Nombre_del_baile>La sardana</Nombre_del_baile>
+    <baile nombre="La sardana">
         <Precio_de_la_clase>300</Precio_de_la_clase>
         <Número_de_plazas_disponibles>18</Número_de_plazas_disponibles>
         <Fecha_de_inicio_de_las_clases>20/9/2022</Fecha_de_inicio_de_las_clases>
@@ -56,8 +51,7 @@
         <Sala>3</Sala>
     </baile>
 
-    <baile>
-        <Nombre_del_baile>El pasodoble</Nombre_del_baile>
+    <baile nombre="El pasodoble">
         <Precio_de_la_clase>350</Precio_de_la_clase>
         <Número_de_plazas_disponibles>23</Número_de_plazas_disponibles>
         <Fecha_de_inicio_de_las_clases>20/9/2022</Fecha_de_inicio_de_las_clases>

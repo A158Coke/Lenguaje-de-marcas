@@ -6,7 +6,6 @@
                 <xs:element name="baile" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="Nombre_del_baile" type="xs:string" />
                             <xs:element name="Precio_de_la_clase" type="xs:string" />
                             <xs:element name="Número_de_plazas_disponibles" type="xs:string" />
                             <xs:element name="Fecha_de_inicio_de_las_clases" type="xs:string" />
@@ -16,6 +15,7 @@
                             <xs:element name="Nombre_del_profesor" type="xs:string" />
                             <xs:element name="Sala" type="xs:string" />
                         </xs:sequence>
+                        <xs:attribute name="nombre" use="required" />
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
