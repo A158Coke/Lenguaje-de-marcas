@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="examen.xsd"?>
+<academia>
+    <baile>
+        <Nombre_del_baile>La jota</Nombre_del_baile>
+        <Precio_de_la_clase>100</Precio_de_la_clase>
+        <Número_de_plazas_disponibles>32</Número_de_plazas_disponibles>
+        <Fecha_de_inicio_de_las_clases>20/9/2022    </Fecha_de_inicio_de_las_clases>
+        <Fecha_de_finalización_de_las_clases>20/6/2023</Fecha_de_finalización_de_las_clases>
+        <Días_de_la_semana_que_se_realiza_la_clase>2</Días_de_la_semana_que_se_realiza_la_clase>
+        <Nombre_del_profesor>Fiona</Nombre_del_profesor>
+        <Sala>2</Sala>
+    </baile>
+
+    <baile>
+        <Nombre_del_baile>La sevillana</Nombre_del_baile>
+        <Precio_de_la_clase>150</Precio_de_la_clase>
+        <Número_de_plazas_disponibles>15</Número_de_plazas_disponibles>
+        <Fecha_de_inicio_de_las_clases>20/9/2022</Fecha_de_inicio_de_las_clases>
+        <Fecha_de_finalización_de_las_clases>20/6/2023</Fecha_de_finalización_de_las_clases>
+        <Días_de_la_semana_que_se_realiza_la_clase>4</Días_de_la_semana_que_se_realiza_la_clase>
+        <Nombre_del_profesor>Sofia</Nombre_del_profesor>
+        <Sala>1</Sala>
+    </baile>
+
+    <baile>
+        <Nombre_del_baile>El chotis</Nombre_del_baile>
+        <Precio_de_la_clase>200</Precio_de_la_clase>
+        <Número_de_plazas_disponibles>23</Número_de_plazas_disponibles>
+        <Fecha_de_inicio_de_las_clases>20/9/2022</Fecha_de_inicio_de_las_clases>
+        <Fecha_de_finalización_de_las_clases>20/6/2023</Fecha_de_finalización_de_las_clases>
+        <Días_de_la_semana_que_se_realiza_la_clase>5</Días_de_la_semana_que_se_realiza_la_clase>
+        <Nombre_del_profesor>Bruno</Nombre_del_profesor>
+        <Sala>3</Sala>
+    </baile>
+
+    <baile>
+        <Nombre_del_baile>La muñeira</Nombre_del_baile>
+        <Precio_de_la_clase>250</Precio_de_la_clase>
+        <Número_de_plazas_disponibles>12</Número_de_plazas_disponibles>
+        <Fecha_de_inicio_de_las_clases>20/9/2022</Fecha_de_inicio_de_las_clases>
+        <Fecha_de_finalización_de_las_clases>20/6/2023</Fecha_de_finalización_de_las_clases>
+        <Días_de_la_semana_que_se_realiza_la_clase>3</Días_de_la_semana_que_se_realiza_la_clase>
+        <Nombre_del_profesor>Sofia</Nombre_del_profesor>
+        <Sala>2</Sala>
+    </baile>
+
+    <baile>
+        <Nombre_del_baile>La sardana</Nombre_del_baile>
+        <Precio_de_la_clase>300</Precio_de_la_clase>
+        <Número_de_plazas_disponibles>18</Número_de_plazas_disponibles>
+        <Fecha_de_inicio_de_las_clases>20/9/2022</Fecha_de_inicio_de_las_clases>
+        <Fecha_de_finalización_de_las_clases>20/6/2023</Fecha_de_finalización_de_las_clases>
+        <Días_de_la_semana_que_se_realiza_la_clase>6</Días_de_la_semana_que_se_realiza_la_clase>
+        <Nombre_del_profesor>Fiona</Nombre_del_profesor>
+        <Sala>3</Sala>
+    </baile>
+
+    <baile>
+        <Nombre_del_baile>El pasodoble</Nombre_del_baile>
+        <Precio_de_la_clase>350</Precio_de_la_clase>
+        <Número_de_plazas_disponibles>23</Número_de_plazas_disponibles>
+        <Fecha_de_inicio_de_las_clases>20/9/2022</Fecha_de_inicio_de_las_clases>
+        <Fecha_de_finalización_de_las_clases>20/6/2023</Fecha_de_finalización_de_las_clases>
+        <Días_de_la_semana_que_se_realiza_la_clase>3</Días_de_la_semana_que_se_realiza_la_clase>
+        <Nombre_del_profesor>Bruno</Nombre_del_profesor>
+        <Sala>1</Sala>
+    </baile>
+
+
+</academia>

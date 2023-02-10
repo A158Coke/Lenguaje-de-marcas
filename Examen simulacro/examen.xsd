@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="academia">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="baile" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Nombre_del_baile" type="xs:string" />
+                            <xs:element name="Precio_de_la_clase" type="xs:string" />
+                            <xs:element name="Número_de_plazas_disponibles" type="xs:string" />
+                            <xs:element name="Fecha_de_inicio_de_las_clases" type="xs:string" />
+                            <xs:element name="Fecha_de_finalización_de_las_clases" type="xs:string" />
+                            <xs:element name="Días_de_la_semana_que_se_realiza_la_clase"
+                                type="xs:string" />
+                            <xs:element name="Nombre_del_profesor" type="xs:string" />
+                            <xs:element name="Sala" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
