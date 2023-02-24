@@ -1,5 +1,2 @@
-<results>{
-for $book in doc("llibreria.xml")
-return <titulo> {data($book/title)} </title>
-}
- <total>{count(/bookstore/book/book)}</total>
+for $book in doc("llibreria.xml")/bookstore
+return (data($book/book/title),<total>{count($book/book)}</total>)
