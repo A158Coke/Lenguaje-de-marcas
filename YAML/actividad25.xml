@@ -66,8 +66,8 @@
         </Productos>
 
         <Base_imponible>970.00 euro</Base_imponible>
-        <cant_IVA>16%</cant_IVA>
-        <Cuota_IVA>155.20 euro</Cuota_IVA>
+        <cant_IVA>155.20 euro</cant_IVA>
+        <Cuota_IVA>16%</Cuota_IVA>
         <Total_factura>1125.20 euro</Total_factura>
         
     </Datos_Factura>
