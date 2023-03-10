@@ -12,7 +12,27 @@
                                         <xs:element name="nombre" type="xs:string" />
                                         <xs:element name="precio" type="xs:string" />
                                         <xs:element name="limtacion" type="xs:string" />
-                                        <xs:element name="horario" maxOccurs="unbounded">
+                                        <xs:element name="horario1">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="dia" type="xs:string" />
+                                                    <xs:element name="clase_mañana" type="xs:string" />
+                                                    <xs:element name="clase_tarde" type="xs:string" />
+                                                    <xs:element name="duracion" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="horario2">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="dia" type="xs:string" />
+                                                    <xs:element name="clase_mañana" type="xs:string" />
+                                                    <xs:element name="clase_tarde" type="xs:string" />
+                                                    <xs:element name="duracion" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="horario3">
                                             <xs:complexType>
                                                 <xs:sequence>
                                                     <xs:element name="dia" type="xs:string" />
@@ -32,7 +52,27 @@
                                         <xs:element name="nombre" type="xs:string" />
                                         <xs:element name="precio" type="xs:string" />
                                         <xs:element name="limtacion" type="xs:string" />
-                                        <xs:element name="horario" maxOccurs="unbounded">
+                                        <xs:element name="horario1">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="dia" type="xs:string" />
+                                                    <xs:element name="clase_mañana" type="xs:string" />
+                                                    <xs:element name="clase_tarde" type="xs:string" />
+                                                    <xs:element name="duracion" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="horario">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="dia" type="xs:string" />
+                                                    <xs:element name="clase_mañana" type="xs:string" />
+                                                    <xs:element name="clase_tarde" type="xs:string" />
+                                                    <xs:element name="duracion" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="horario2">
                                             <xs:complexType>
                                                 <xs:sequence>
                                                     <xs:element name="dia" type="xs:string" />
@@ -52,7 +92,47 @@
                                         <xs:element name="nombre" type="xs:string" />
                                         <xs:element name="precio" type="xs:string" />
                                         <xs:element name="limtacion" type="xs:string" />
-                                        <xs:element name="horario" maxOccurs="unbounded">
+                                        <xs:element name="horario1">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="dia" type="xs:string" />
+                                                    <xs:element name="clase_mañana" type="xs:string" />
+                                                    <xs:element name="clase_tarde" type="xs:string" />
+                                                    <xs:element name="duracion" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="horario2">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="dia" type="xs:string" />
+                                                    <xs:element name="clase_mañana" type="xs:string" />
+                                                    <xs:element name="clase_tarde" type="xs:string" />
+                                                    <xs:element name="duracion" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="horario3">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="dia" type="xs:string" />
+                                                    <xs:element name="clase_mañana" type="xs:string" />
+                                                    <xs:element name="clase_tarde" type="xs:string" />
+                                                    <xs:element name="duracion" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="horario4">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="dia" type="xs:string" />
+                                                    <xs:element name="clase_mañana" type="xs:string" />
+                                                    <xs:element name="clase_tarde" type="xs:string" />
+                                                    <xs:element name="duracion" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="horario5">
                                             <xs:complexType>
                                                 <xs:sequence>
                                                     <xs:element name="dia" type="xs:string" />
@@ -72,7 +152,47 @@
                                         <xs:element name="nombre" type="xs:string" />
                                         <xs:element name="precio" type="xs:string" />
                                         <xs:element name="limtacion" type="xs:string" />
-                                        <xs:element name="horario" maxOccurs="unbounded">
+                                        <xs:element name="horario1">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="dia" type="xs:string" />
+                                                    <xs:element name="clase_mañana" type="xs:string" />
+                                                    <xs:element name="clase_tarde" type="xs:string" />
+                                                    <xs:element name="duracion" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="horario2">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="dia" type="xs:string" />
+                                                    <xs:element name="clase_mañana" type="xs:string" />
+                                                    <xs:element name="clase_tarde" type="xs:string" />
+                                                    <xs:element name="duracion" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="horario3">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="dia" type="xs:string" />
+                                                    <xs:element name="clase_mañana" type="xs:string" />
+                                                    <xs:element name="clase_tarde" type="xs:string" />
+                                                    <xs:element name="duracion" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="horario4">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="dia" type="xs:string" />
+                                                    <xs:element name="clase_mañana" type="xs:string" />
+                                                    <xs:element name="clase_tarde" type="xs:string" />
+                                                    <xs:element name="duracion" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="horario5">
                                             <xs:complexType>
                                                 <xs:sequence>
                                                     <xs:element name="dia" type="xs:string" />
@@ -92,7 +212,47 @@
                                         <xs:element name="nombre" type="xs:string" />
                                         <xs:element name="precio" type="xs:string" />
                                         <xs:element name="limtacion" type="xs:string" />
-                                        <xs:element name="horario" maxOccurs="unbounded">
+                                        <xs:element name="horario1">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="dia" type="xs:string" />
+                                                    <xs:element name="clase_mañana" type="xs:string" />
+                                                    <xs:element name="clase_tarde" type="xs:string" />
+                                                    <xs:element name="duracion" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="horario2">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="dia" type="xs:string" />
+                                                    <xs:element name="clase_mañana" type="xs:string" />
+                                                    <xs:element name="clase_tarde" type="xs:string" />
+                                                    <xs:element name="duracion" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="horario3">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="dia" type="xs:string" />
+                                                    <xs:element name="clase_mañana" type="xs:string" />
+                                                    <xs:element name="clase_tarde" type="xs:string" />
+                                                    <xs:element name="duracion" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="horario4">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="dia" type="xs:string" />
+                                                    <xs:element name="clase_mañana" type="xs:string" />
+                                                    <xs:element name="clase_tarde" type="xs:string" />
+                                                    <xs:element name="duracion" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="horario5">
                                             <xs:complexType>
                                                 <xs:sequence>
                                                     <xs:element name="dia" type="xs:string" />
@@ -112,7 +272,47 @@
                                         <xs:element name="nombre" type="xs:string" />
                                         <xs:element name="precio" type="xs:string" />
                                         <xs:element name="limtacion" type="xs:string" />
-                                        <xs:element name="horario" maxOccurs="unbounded">
+                                        <xs:element name="horario1">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="dia" type="xs:string" />
+                                                    <xs:element name="clase_mañana" type="xs:string" />
+                                                    <xs:element name="clase_tarde" type="xs:string" />
+                                                    <xs:element name="duracion" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="horario2">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="dia" type="xs:string" />
+                                                    <xs:element name="clase_mañana" type="xs:string" />
+                                                    <xs:element name="clase_tarde" type="xs:string" />
+                                                    <xs:element name="duracion" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="horario3">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="dia" type="xs:string" />
+                                                    <xs:element name="clase_mañana" type="xs:string" />
+                                                    <xs:element name="clase_tarde" type="xs:string" />
+                                                    <xs:element name="duracion" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="horario4">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="dia" type="xs:string" />
+                                                    <xs:element name="clase_mañana" type="xs:string" />
+                                                    <xs:element name="clase_tarde" type="xs:string" />
+                                                    <xs:element name="duracion" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="horario5">
                                             <xs:complexType>
                                                 <xs:sequence>
                                                     <xs:element name="dia" type="xs:string" />
