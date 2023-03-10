@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="consulta_de_salud_integral">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="servicio">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="cuota_mensual">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="yoga">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="precio" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="pilates">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="precio" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="meditación_guiada">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="precio" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="cuota_por_sesion">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="fisioterapia">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="precio" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="podología">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="precio" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="psicología">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="precio" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="límite_de_plazas">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="fisioterapia">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="limtacion" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="podología">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="limtacion" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="psicología">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="limtacion" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="yoga">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="limtacion" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="pilates">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="limtacion" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="meditación_guiada">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="limtacion" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="horario">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="yoga">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="dia" type="xs:string" />
+                                                    <xs:element name="clase_mañana" type="xs:string" />
+                                                    <xs:element name="clase_tarde" type="xs:string" />
+                                                    <xs:element name="duracion" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="pilates">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="dia" type="xs:string" />
+                                                    <xs:element name="clase_mañana" type="xs:string" />
+                                                    <xs:element name="clase_tarde" type="xs:string" />
+                                                    <xs:element name="duracion" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="meditación_guiada">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="dia" type="xs:string" />
+                                                    <xs:element name="clase_mañana" type="xs:string" />
+                                                    <xs:element name="clase_tarde" type="xs:string" />
+                                                    <xs:element name="duracion" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="fisioterapia">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="dia" type="xs:string" />
+                                                    <xs:element name="clase_mañana" type="xs:string" />
+                                                    <xs:element name="clase_tarde" type="xs:string" />
+                                                    <xs:element name="duracion" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="podología">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="dia" type="xs:string" />
+                                                    <xs:element name="clase_mañana" type="xs:string" />
+                                                    <xs:element name="clase_tarde" type="xs:string" />
+                                                    <xs:element name="duracion" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="psicología">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="dia" type="xs:string" />
+                                                    <xs:element name="clase_mañana" type="xs:string" />
+                                                    <xs:element name="clase_tarde" type="xs:string" />
+                                                    <xs:element name="duracion" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="empleos">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="yoga">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="empleado" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="pilates">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="empleado" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="meditación_guiada">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="empleado" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="fisioterapia">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="empleado" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="podología">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="empleado" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="psicología">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="empleado" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
