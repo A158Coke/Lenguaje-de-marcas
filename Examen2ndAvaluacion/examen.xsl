@@ -5,14 +5,17 @@
 
     <xsl:template match="/">
         <html>
+           <head>
+           <title>CONSULTA DE SALUD INTEGRAL</title> 
+           </head>
             <body>
-                <h2>My CD Collection</h2>
+                <h2>CONSULTA DE SALUD INTEGRAL</h2>
                 <table border="1">
                     <tr bgcolor="#9acd32">
-                        <th>Title</th>
+                        <th>Servicio</th>
                         <th>Artist</th>
                     </tr>
-                    <xsl:for-each select="catalog/cd">
+                    <xsl:for-each select="servicio">
                         <tr>
                             <td>
                                 <xsl:value-of select="title"/>

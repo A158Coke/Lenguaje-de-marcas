@@ -1,143 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="examen.xsl"?>
-<consulta_de_salud_integral xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="examen1.xsd">
+
+<?xml-model href="examen.xsd"?>
+<consulta_de_salud_integral>
     <servicio>
 
-        <cuota_mensual>
 
-            <yoga>
-                <precio>25euros/mes</precio>
-            </yoga>
-
-            <pilates>
-                <precio>30euros/mes</precio>
-            </pilates>
-
-            <meditación_guiada>
-                <precio>35euros/mes</precio>
-            </meditación_guiada>
-
-        </cuota_mensual>
-
-        <cuota_por_sesion>
-
-            <fisioterapia>
-                <precio>35euros/hora(bonos de 5 sesiones 160€ y de 10 sesiones 300€)</precio>
-            </fisioterapia>
-
-            <podología>
-                <precio>25euros/hora(bonos de 5 sesiones 100€ y de 10 sesiones 190€)</precio>
-            </podología>
-
-            <psicología>
-                <precio>50euros/hora(bonos de 5 sesiones 220€ y de 10 sesiones 400€)</precio>
-            </psicología>
-
-        </cuota_por_sesion>
-
-
-        <límite_de_plazas>
-
-            <fisioterapia>
-                <limtacion>reserva previa</limtacion>
-            </fisioterapia>
-
-            <podología>
-                <limtacion>reserva previa</limtacion>
-            </podología>
-
-            <psicología>
-                <limtacion>reserva previa</limtacion>
-            </psicología>
-
-            <yoga>
-                <limtacion>20personas</limtacion>
-            </yoga>
-
-            <pilates>
-                <limtacion>25personas</limtacion>
-            </pilates>
-
-            <meditación_guiada>
-                <limtacion>10personas</limtacion>
-            </meditación_guiada>
-
-        </límite_de_plazas>
-
-        <horario>
-
-            <yoga>
+        <yoga>
+            <precio>25euros/mes</precio>
+            <limtacion>20personas</limtacion>
+            <horario>
                 <dia>Lunes, miercoles, viernes</dia>
                 <clase_mañana>11:00AM to 12:30AM</clase_mañana>
                 <clase_tarde>5:00PM to 6:30PM</clase_tarde>
                 <duracion>1 hora</duracion>
-            </yoga>
+            </horario>
+            <empleado>Biel y Alex</empleado>
+        </yoga>
 
-            <pilates>
+        <pilates>
+            <precio>30euros/mes</precio>
+            <limtacion>25personas</limtacion>
+            <horario>
                 <dia>Martes, jueves, viernes</dia>
                 <clase_mañana>10:00AM to 11:30AM</clase_mañana>
                 <clase_tarde>4:00PM to 5:30PM</clase_tarde>
                 <duracion>1 hora</duracion>
-            </pilates>
+            </horario>
+            <empleado>Tolo</empleado>
+        </pilates>
 
-            <meditación_guiada>
+        <meditación_guiada>
+            <precio>35euros/mes</precio>
+            <limtacion>10personas</limtacion>
+            <horario>
                 <dia>Lunes, martes, miercoles, jueves, viernes</dia>
                 <clase_mañana>10:00AM to 11:00AM</clase_mañana>
                 <clase_tarde>7:00PM to 8:00PM</clase_tarde>
                 <duracion>1 hora</duracion>
-            </meditación_guiada>
+            </horario>
+            <empleado>Biel y Alex</empleado>
+        </meditación_guiada>
 
-            <fisioterapia>
+
+
+        <fisioterapia>
+            <precio>35euros/hora(bonos de 5 sesiones 160€ y de 10 sesiones 300€)</precio>
+            <limtacion>reserva previa</limtacion>
+            <horario>
                 <dia>Lunes a viernes</dia>
                 <clase_mañana>9:00AM to 1PM</clase_mañana>
                 <clase_tarde>3:00PM to 7:00PM</clase_tarde>
                 <duracion>1 hora</duracion>
-            </fisioterapia>
+            </horario>
+            <empleado>Chus, Marga y Silvia</empleado>
+        </fisioterapia>
 
-            <podología>
+        <podología>
+            <precio>25euros/hora(bonos de 5 sesiones 100€ y de 10 sesiones 190€)</precio>
+            <limtacion>reserva previa</limtacion>
+            <horario>
                 <dia>Lunes a viernes</dia>
                 <clase_mañana>9:00AM to 1PM</clase_mañana>
                 <clase_tarde>3:00PM to 7:00PM</clase_tarde>
                 <duracion>1 hora</duracion>
-            </podología>
+            </horario>
+            <empleado>Joana</empleado>
+        </podología>
 
-            <psicología>
+        <psicología>
+            <precio>50euros/hora(bonos de 5 sesiones 220€ y de 10 sesiones 400€)</precio>
+            <limtacion>reserva previa</limtacion>
+            <horario>
                 <dia>Lunes a viernes</dia>
                 <clase_mañana>9:00AM to 1PM</clase_mañana>
                 <clase_tarde>3:00PM to 7:00PM</clase_tarde>
                 <duracion>1 hora</duracion>
-            </psicología>
+            </horario>
+            <empleado>Aina</empleado>
+        </psicología>
 
-        </horario>
 
 
-        <empleos>
-
-            <yoga>
-                <empleado>Biel y Alex</empleado>
-            </yoga>
-
-            <pilates>
-                <empleado>Tolo</empleado>
-            </pilates>
-
-            <meditación_guiada>
-                <empleado>Biel y Alex</empleado>
-            </meditación_guiada>
-
-            <fisioterapia>
-                <empleado>Chus, Marga y Silvia</empleado>
-            </fisioterapia>
-
-            <podología>
-                <empleado>Joana</empleado>
-            </podología>
-
-            <psicología>
-                <empleado>Aina</empleado>
-            </psicología>
-
-        </empleos>
 
     </servicio>
 </consulta_de_salud_integral>
