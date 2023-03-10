@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="examen.xsl"?>
-
 <?xml-model href="examen.xsd"?>
 <consulta_de_salud_integral>
     <servicio>
-
-
         <yoga>
             <precio>25euros/mes</precio>
             <limtacion>20personas</limtacion>
             <horario>
-                <dia>Lunes, miercoles, viernes</dia>
+                <dia>Lunes</dia>
+                <clase_mañana>11:00AM to 12:30AM</clase_mañana>
+                <clase_tarde>5:00PM to 6:30PM</clase_tarde>
+                <duracion>1 hora</duracion>
+            </horario>
+            <horario>
+                <dia>Miercoles</dia>
+                <clase_mañana>11:00AM to 12:30AM</clase_mañana>
+                <clase_tarde>5:00PM to 6:30PM</clase_tarde>
+                <duracion>1 hora</duracion>
+            </horario>
+            <horario>
+                <dia>Viernes</dia>
                 <clase_mañana>11:00AM to 12:30AM</clase_mañana>
                 <clase_tarde>5:00PM to 6:30PM</clase_tarde>
                 <duracion>1 hora</duracion>
@@ -18,11 +27,23 @@
             <empleado>Biel y Alex</empleado>
         </yoga>
 
-        <pilates>
+        <pilates>, jueves, viernes
             <precio>30euros/mes</precio>
             <limtacion>25personas</limtacion>
             <horario>
-                <dia>Martes, jueves, viernes</dia>
+                <dia>Martes</dia>
+                <clase_mañana>10:00AM to 11:30AM</clase_mañana>
+                <clase_tarde>4:00PM to 5:30PM</clase_tarde>
+                <duracion>1 hora</duracion>
+            </horario>
+            <horario>
+                <dia>Jueves</dia>
+                <clase_mañana>10:00AM to 11:30AM</clase_mañana>
+                <clase_tarde>4:00PM to 5:30PM</clase_tarde>
+                <duracion>1 hora</duracion>
+            </horario>
+            <horario>
+                <dia>Viernes</dia>
                 <clase_mañana>10:00AM to 11:30AM</clase_mañana>
                 <clase_tarde>4:00PM to 5:30PM</clase_tarde>
                 <duracion>1 hora</duracion>
@@ -34,7 +55,31 @@
             <precio>35euros/mes</precio>
             <limtacion>10personas</limtacion>
             <horario>
-                <dia>Lunes, martes, miercoles, jueves, viernes</dia>
+                <dia>Lunes</dia>
+                <clase_mañana>10:00AM to 11:00AM</clase_mañana>
+                <clase_tarde>7:00PM to 8:00PM</clase_tarde>
+                <duracion>1 hora</duracion>
+            </horario>
+            <horario>
+                <dia>Martes</dia>
+                <clase_mañana>10:00AM to 11:00AM</clase_mañana>
+                <clase_tarde>7:00PM to 8:00PM</clase_tarde>
+                <duracion>1 hora</duracion>
+            </horario>
+            <horario>
+                <dia>Miercoles</dia>
+                <clase_mañana>10:00AM to 11:00AM</clase_mañana>
+                <clase_tarde>7:00PM to 8:00PM</clase_tarde>
+                <duracion>1 hora</duracion>
+            </horario>
+            <horario>
+                <dia>Jueves</dia>
+                <clase_mañana>10:00AM to 11:00AM</clase_mañana>
+                <clase_tarde>7:00PM to 8:00PM</clase_tarde>
+                <duracion>1 hora</duracion>
+            </horario>
+            <horario>
+                <dia>Viernes</dia>
                 <clase_mañana>10:00AM to 11:00AM</clase_mañana>
                 <clase_tarde>7:00PM to 8:00PM</clase_tarde>
                 <duracion>1 hora</duracion>
@@ -42,13 +87,35 @@
             <empleado>Biel y Alex</empleado>
         </meditación_guiada>
 
-
-
         <fisioterapia>
             <precio>35euros/hora(bonos de 5 sesiones 160€ y de 10 sesiones 300€)</precio>
             <limtacion>reserva previa</limtacion>
             <horario>
-                <dia>Lunes a viernes</dia>
+                <dia>Lunes</dia>
+                <clase_mañana>9:00AM to 1PM</clase_mañana>
+                <clase_tarde>3:00PM to 7:00PM</clase_tarde>
+                <duracion>1 hora</duracion>
+            </horario>
+            <horario>
+                <dia>Martes</dia>
+                <clase_mañana>9:00AM to 1PM</clase_mañana>
+                <clase_tarde>3:00PM to 7:00PM</clase_tarde>
+                <duracion>1 hora</duracion>
+            </horario>
+            <horario>
+                <dia>Miercoles</dia>
+                <clase_mañana>9:00AM to 1PM</clase_mañana>
+                <clase_tarde>3:00PM to 7:00PM</clase_tarde>
+                <duracion>1 hora</duracion>
+            </horario>
+            <horario>
+                <dia>Jueves</dia>
+                <clase_mañana>9:00AM to 1PM</clase_mañana>
+                <clase_tarde>3:00PM to 7:00PM</clase_tarde>
+                <duracion>1 hora</duracion>
+            </horario>
+            <horario>
+                <dia>Viernes</dia>
                 <clase_mañana>9:00AM to 1PM</clase_mañana>
                 <clase_tarde>3:00PM to 7:00PM</clase_tarde>
                 <duracion>1 hora</duracion>
@@ -60,7 +127,31 @@
             <precio>25euros/hora(bonos de 5 sesiones 100€ y de 10 sesiones 190€)</precio>
             <limtacion>reserva previa</limtacion>
             <horario>
-                <dia>Lunes a viernes</dia>
+                <dia>Lunes</dia>
+                <clase_mañana>9:00AM to 1PM</clase_mañana>
+                <clase_tarde>3:00PM to 7:00PM</clase_tarde>
+                <duracion>1 hora</duracion>
+            </horario>
+              <horario>
+                <dia>Martes</dia>
+                <clase_mañana>9:00AM to 1PM</clase_mañana>
+                <clase_tarde>3:00PM to 7:00PM</clase_tarde>
+                <duracion>1 hora</duracion>
+            </horario>
+              <horario>
+                <dia>Miercoles</dia>
+                <clase_mañana>9:00AM to 1PM</clase_mañana>
+                <clase_tarde>3:00PM to 7:00PM</clase_tarde>
+                <duracion>1 hora</duracion>
+            </horario>
+              <horario>
+                <dia>Jueves</dia>
+                <clase_mañana>9:00AM to 1PM</clase_mañana>
+                <clase_tarde>3:00PM to 7:00PM</clase_tarde>
+                <duracion>1 hora</duracion>
+            </horario>
+              <horario>
+                <dia>Viernes</dia>
                 <clase_mañana>9:00AM to 1PM</clase_mañana>
                 <clase_tarde>3:00PM to 7:00PM</clase_tarde>
                 <duracion>1 hora</duracion>
@@ -72,16 +163,38 @@
             <precio>50euros/hora(bonos de 5 sesiones 220€ y de 10 sesiones 400€)</precio>
             <limtacion>reserva previa</limtacion>
             <horario>
-                <dia>Lunes a viernes</dia>
+                <dia>Lunes</dia>
                 <clase_mañana>9:00AM to 1PM</clase_mañana>
                 <clase_tarde>3:00PM to 7:00PM</clase_tarde>
                 <duracion>1 hora</duracion>
             </horario>
+                <horario>
+                <dia>Martes</dia>
+                <clase_mañana>9:00AM to 1PM</clase_mañana>
+                <clase_tarde>3:00PM to 7:00PM</clase_tarde>
+                <duracion>1 hora</duracion>
+            </horario>
+                <horario>
+                <dia>Miercoles</dia>
+                <clase_mañana>9:00AM to 1PM</clase_mañana>
+                <clase_tarde>3:00PM to 7:00PM</clase_tarde>
+                <duracion>1 hora</duracion>
+            </horario>
+                <horario>
+                <dia>Jueves</dia>
+                <clase_mañana>9:00AM to 1PM</clase_mañana>
+                <clase_tarde>3:00PM to 7:00PM</clase_tarde>
+                <duracion>1 hora</duracion>
+            </horario>
+                <horario>
+                <dia>Viernes</dia>
+                <clase_mañana>9:00AM to 1PM</clase_mañana>
+                <clase_tarde>3:00PM to 7:00PM</clase_tarde>
+                <duracion>1 hora</duracion>
+            </horario>
+            
             <empleado>Aina</empleado>
         </psicología>
-
-
-
 
     </servicio>
 </consulta_de_salud_integral>

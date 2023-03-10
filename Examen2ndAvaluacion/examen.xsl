@@ -5,12 +5,13 @@
 
     <xsl:template match="/">
         <html>
-           <head>
-           <title>CONSULTA DE SALUD INTEGRAL</title> 
-           </head>
+            <head>
+                <title>CONSULTA DE SALUD INTEGRAL</title>
+            </head>
             <body>
                 <h2>CONSULTA DE SALUD INTEGRAL</h2>
                 <table border="1">
+                  <xsl:for-each select="consulta_de_salud_integral"></xsl:for-each>
                     <tr bgcolor="#9acd32">
                         <th>Servicio</th>
                         <th>Artist</th>

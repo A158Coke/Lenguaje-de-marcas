@@ -11,7 +11,7 @@
                                     <xs:sequence>
                                         <xs:element name="precio" type="xs:string" />
                                         <xs:element name="limtacion" type="xs:string" />
-                                        <xs:element name="horario">
+                                        <xs:element name="horario" maxOccurs="unbounded">
                                             <xs:complexType>
                                                 <xs:sequence>
                                                     <xs:element name="dia" type="xs:string" />
@@ -26,11 +26,11 @@
                                 </xs:complexType>
                             </xs:element>
                             <xs:element name="pilates">
-                                <xs:complexType>
+                                <xs:complexType mixed="true">
                                     <xs:sequence>
                                         <xs:element name="precio" type="xs:string" />
                                         <xs:element name="limtacion" type="xs:string" />
-                                        <xs:element name="horario">
+                                        <xs:element name="horario" maxOccurs="unbounded">
                                             <xs:complexType>
                                                 <xs:sequence>
                                                     <xs:element name="dia" type="xs:string" />
@@ -49,7 +49,7 @@
                                     <xs:sequence>
                                         <xs:element name="precio" type="xs:string" />
                                         <xs:element name="limtacion" type="xs:string" />
-                                        <xs:element name="horario">
+                                        <xs:element name="horario" maxOccurs="unbounded">
                                             <xs:complexType>
                                                 <xs:sequence>
                                                     <xs:element name="dia" type="xs:string" />
@@ -68,7 +68,7 @@
                                     <xs:sequence>
                                         <xs:element name="precio" type="xs:string" />
                                         <xs:element name="limtacion" type="xs:string" />
-                                        <xs:element name="horario">
+                                        <xs:element name="horario" maxOccurs="unbounded">
                                             <xs:complexType>
                                                 <xs:sequence>
                                                     <xs:element name="dia" type="xs:string" />
@@ -87,7 +87,7 @@
                                     <xs:sequence>
                                         <xs:element name="precio" type="xs:string" />
                                         <xs:element name="limtacion" type="xs:string" />
-                                        <xs:element name="horario">
+                                        <xs:element name="horario" maxOccurs="unbounded">
                                             <xs:complexType>
                                                 <xs:sequence>
                                                     <xs:element name="dia" type="xs:string" />
@@ -106,7 +106,7 @@
                                     <xs:sequence>
                                         <xs:element name="precio" type="xs:string" />
                                         <xs:element name="limtacion" type="xs:string" />
-                                        <xs:element name="horario">
+                                        <xs:element name="horario" maxOccurs="unbounded">
                                             <xs:complexType>
                                                 <xs:sequence>
                                                     <xs:element name="dia" type="xs:string" />
