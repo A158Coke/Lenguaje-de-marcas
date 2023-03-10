@@ -3,12 +3,13 @@
     <xs:element name="consulta_de_salud_integral">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="servicio">
+                <xs:element name="servicios">
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="yoga">
                                 <xs:complexType>
                                     <xs:sequence>
+                                        <xs:element name="nombre" type="xs:string" />
                                         <xs:element name="precio" type="xs:string" />
                                         <xs:element name="limtacion" type="xs:string" />
                                         <xs:element name="horario" maxOccurs="unbounded">
@@ -26,8 +27,9 @@
                                 </xs:complexType>
                             </xs:element>
                             <xs:element name="pilates">
-                                <xs:complexType mixed="true">
+                                <xs:complexType>
                                     <xs:sequence>
+                                        <xs:element name="nombre" type="xs:string" />
                                         <xs:element name="precio" type="xs:string" />
                                         <xs:element name="limtacion" type="xs:string" />
                                         <xs:element name="horario" maxOccurs="unbounded">
@@ -44,9 +46,10 @@
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element name="meditación_guiada">
+                            <xs:element name="meditacion_guiada">
                                 <xs:complexType>
                                     <xs:sequence>
+                                        <xs:element name="nombre" type="xs:string" />
                                         <xs:element name="precio" type="xs:string" />
                                         <xs:element name="limtacion" type="xs:string" />
                                         <xs:element name="horario" maxOccurs="unbounded">
@@ -66,6 +69,7 @@
                             <xs:element name="fisioterapia">
                                 <xs:complexType>
                                     <xs:sequence>
+                                        <xs:element name="nombre" type="xs:string" />
                                         <xs:element name="precio" type="xs:string" />
                                         <xs:element name="limtacion" type="xs:string" />
                                         <xs:element name="horario" maxOccurs="unbounded">
@@ -82,9 +86,10 @@
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element name="podología">
+                            <xs:element name="podologia">
                                 <xs:complexType>
                                     <xs:sequence>
+                                        <xs:element name="nombre" type="xs:string" />
                                         <xs:element name="precio" type="xs:string" />
                                         <xs:element name="limtacion" type="xs:string" />
                                         <xs:element name="horario" maxOccurs="unbounded">
@@ -101,9 +106,10 @@
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element name="psicología">
+                            <xs:element name="psicologia">
                                 <xs:complexType>
                                     <xs:sequence>
+                                        <xs:element name="nombre" type="xs:string" />
                                         <xs:element name="precio" type="xs:string" />
                                         <xs:element name="limtacion" type="xs:string" />
                                         <xs:element name="horario" maxOccurs="unbounded">
